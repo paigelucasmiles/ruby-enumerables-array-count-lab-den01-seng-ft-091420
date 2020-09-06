@@ -10,5 +10,5 @@ end
 # Return the total number of EMPTY strings in the provided array using the count enumerable
 
 def count_empty_strings(array)
-  array.count { |element| element.is_a? String && element.empty? }
+  array.count { |element| element.is_a?(String) && element.empty? }
 end
